@@ -1,0 +1,11 @@
+-- LIKE 'a%' (vrednost koja pocinje sa slovom 'a')
+-- LIKE `%a` (vrednost koja zavrsava sa slovom `a`)
+-- LIKE `%or%` (vrednost koja ima slova `or` bilo gde u tekstu)
+-- LIKE `_r%` (vrednost koja ima na drugoj poziciji slovo `r`)
+-- LIKE `a_%` (vrednost koja pocinje sa slovom `a` i ima minimum 2 karaktera)
+-- LIKE `a__%` (vrednost koja pocinje sa slovom `a` i ima minimum 3 karaktera)
+-- LIKE `a%o` (vrednost koja pocinje sa slovom `a` a zavrsava sa slovom `o`)
+-- LIKE `h[oa]t` (pronalazi reci `hot` i `hat`)
+-- SELECT * FROM `Customers` WHERE `City` LIKE `L_nd_n`;
+-- SELECT * FROM `Customers` WHERE `CustomerName` LIKE 'a%';
+SELECT * FROM `` WHERE `` LIKE ``;

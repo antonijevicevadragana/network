@@ -1,0 +1,24 @@
+Domaći zadatak broj 16
+Datum postavljanja domaćeg zadatka: 13.06.2023. – 16.06.2023
+Rok za postavljanje domaćeg zadatka: 19.06.2023. do 18h
+
+1.	Fajl connection.php
+    a.	kreirati novog korisnika u bazi podataka nad bazom network.
+    b.	Novi korisnik treba da ima odgovarajuće permisije nad tom bazom.
+    c.	U fajlu connection.php, povezati se nad bazom podataka preko tog novog korisnika koji ima svoj username i password.
+2.	Fajl style.css
+    a.	Stranica u koju ćete smeštati sve stilove koje budete koristili u ovom projektu.
+    b.	Sve stranice koje je potrebno stilizovati, koristiće (uključiće) stil iz style.css stranice.
+    c.	Koristite i bootstrap biblioteku, ali fajlove iz te biblioteke ne menjamo – sve „dodatne“ stilove pišemo upravo u fajl style.css.
+3.	Fajl profile.php 
+    a.	Formu za profil proširiti poljem za dodavanje profilne slike. Odraditi otpremanje  slike u posebnom direktorijumu unutar projekta. Obezbediti se da svaki profil ima tačno jednu sliku. 
+4.	Fajl followers.php
+    a.	U tabeli dodati još jednu kolonu u kojoj će se prikazivati slika koju je taj korisnik dodao preko svog profila. Ukoliko korisnik nije dodao svoju sliku, ubaciti neki “defult” avatar. Pri tome je potrebno odabrati tri vrste avatara - jedan avatar se prikazuje kod osoba muškog pola, drugi avatar se prikazuje kod osoba ženskog pola, a treći se prikazuje kod osoba koje su odabrale opciju other za pol, i za one koje nisu kreirali svoj profil. Ovaj avatar se prikazuje ukoliko korisnik nema svoju sliku, a inače prikazati njegovu sliku. 
+5.	Svi fajlovi
+    a.	Kreirati horizontalni meni i uključiti da u svim stranicama koje se prikazuju korisniku. Pri tome, stavke menija moraju biti drugačije za logovane i nelogovane korisnike. Preciznije, nelogovan korisnik treba da vidi sledeće stavke:
+    Home (link ka index.php), Register (link ka register.php), Login (link ka login.php)
+    Dok logovan korisnik treba da vidi sledeće stavke:
+    Home (link ka index.php), Profile (link ka profile.php), Connections (link ka followers.php), Logout (link ka logout.php).
+    b.	Ne ponavljati isti kod u različitim php stranicama, nego kreirati header.php fajl koji će sadržati prikaz koji je zajednički za sve stranice, a onda u ostalim stranicama uključiti header.php.
+
+

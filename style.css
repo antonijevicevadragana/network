@@ -1,0 +1,339 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+
+ /* font-family: 'Fugaz One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+/* table, th, td {
+  border: 1px solid black;
+  margin: 10px;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 98%;
+}
+
+th, td {
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even) {background-color: rgba(0, 149, 255, 0.151);}
+.error {
+  color: red;
+}
+
+.success {
+  position: relative;
+  z-index: 10000;
+  color: green;
+  font-size: 22px;
+  background-color:white;
+  text-shadow: 1px 1px rgba(0, 128, 0, 0.412);
+  box-shadow: 0 -3px 20px greenyellow;
+}
+
+/* general */
+html {
+  background-color: rgba(0, 149, 255, 0.797);
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 12px;
+  color: #333;
+font-family: 'Nunito', sans-serif;
+
+}
+
+/* centriran text i pozdravni text */
+.container-fluid {
+  position: relative;
+  text-align: center;
+}
+
+.centar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  background-color:#3333337c;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+
+
+.welcome h1 {    
+  animation: bounceOut;
+  animation-duration: 3s; 
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 3px black;
+}
+
+
+
+/* pozadinska slika */
+
+.back {
+  background-image: url("slike/slika2.jpg");
+  /* background-image: url("slike/like.jpeg"); */
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+/* valovi */
+
+.custom-shape-divider-top-1686762017 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1686762017 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 447px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1686762017 .shape-fill {
+  fill: rgba(0, 149, 255, 0.673);
+}
+
+
+
+
+/* stilizovanje pozadine kod registracije i logovanaja */
+.animacija {
+  animation: bounce;
+  animation-duration: 3s;
+}
+
+
+.backimg{
+  /* background-image: url("slike/like.jpeg"); */
+  background-image: url("slike/logand.jpg");
+  background-size: cover;
+  height: 100vh;
+
+}
+
+
+
+/* stilizovanje FORMI */
+
+
+ .headerForm {
+  font-weight: 700;
+  color: rgba(0, 149, 255, 0.9);
+  padding: 8px;
+}
+
+form {
+  margin: 30px;
+  color: #33333391;
+}
+
+label {
+  font-weight: 700;
+}
+
+p {
+  padding: 1px;
+}
+
+
+[type=text],
+[type=password] {
+    border: none;
+}
+
+[type=text],
+[type=password] {
+   border-bottom: 1px solid #33333338;
+} 
+
+ [type=submit] {
+  background-color: rgba(0, 149, 255, 0.9);
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  box-shadow: 0 5px 5px grey;
+}
+
+[type=text]:focus,
+[type=password]:focus {
+  background-color: #33333311;
+}
+
+[type=submit]:hover,[type=submit]:focus {
+  background-color: blue;
+  transform: scale(1.2, 1.2);
+}
+
+
+/* folowers */
+.backstyle {
+  /* background-color: rgba(0, 149, 255, 0.322);; */
+  background-image: linear-gradient( white, rgba(0, 149, 255, 0.726));
+}
+
+
+
+.profil {
+  width: 100px;
+  height: 100px; 
+  border-radius: 50%;
+}
+
+.profil:hover {
+  opacity: 0.5;
+}
+table, th, td {
+  border: 1px solid #3333339a;
+  margin: 10px;
+  color: blue;
+  text-align: center;
+ 
+}
+
+th {
+  color: #333;
+}
+
+.animacijaFollow{
+  color: #333;
+  animation: headShake;
+  animation-duration: 2s;
+}
+
+.followbtn {
+  text-decoration: none;
+  background-color: rgba(0, 149, 255, 0.9);
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  box-shadow: 0 5px 5px grey;
+}
+
+.followbtn:hover {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+
+.unfollowbtn {
+  text-decoration: none;
+  background-color: red;
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  box-shadow: 0 5px 5px grey;
+}
+
+.unfollowbtn:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.781);
+  color: white;
+}
+
+/* header */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* show */
+.showName {
+  animation: bounce;
+  animation-duration: 3s;
+  color: rgba(0, 0, 255, 0.325);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* POST */
+.post {
+  background-color: whitesmoke;
+  box-shadow: 0 0 12px;
+  color: #333;
+  
+ 
+
+}
+
+/* responsiva */
+
+@media (max-width: 992px) {
+  .back {
+    background-image: url("slike/like.jpeg");
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  
+  .centar {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  a:link,
+a:visited {
+  font-size: 15px;
+}
+
+.welcome h1{
+font-size: 25px;
+}
+
+
+  
+}
+
+
